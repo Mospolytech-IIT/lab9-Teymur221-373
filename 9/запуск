@@ -1,0 +1,17 @@
+python -m venv venv
+source venv/bin/activate  # Linux/MacOS
+venv\Scripts\activate     # Windows
+
+
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn app:app --reload
+
+
+
+https://chatgpt.com/c/6755abc7-2918-8005-881d-ef7057df7554
